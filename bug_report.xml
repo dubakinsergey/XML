@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+  <id>1</id>
+  <severity>critical</severity>
+  <environment>MacOS ventura 13.0.1 (22A400) Chrome 112.0.5615.137</environment>
+  <title>App link missing in App store</title>
+  <steps>
+    <step1>open page examplebugreport.com</step1>
+    <step2>click on the main menu</step2>
+    <step3>click on the button Download on the App Store</step3>
+  </steps>
+  <expected_result>the link to download the application in the App store works when you click on the button</expected_result>
+  <actual_result>the link to download the application in the App store does not work when you click on the button</actual_result>
+  <author>Dubakin Sergey</author>
+</bug_report>
